@@ -24,9 +24,9 @@ export default NextAuth({
   },
   jwt: {},
 
-  callbacks: {
-    async redirect({ url, baseUrl}){
-      return baseUrl + "/job"
-    },
-  }
+  // callbacks: {
+  //   async redirect({ url, baseUrl}){
+  //     return baseUrl + "/job"
+  //   },
+  // }
 })
